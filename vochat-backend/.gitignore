@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*  # in case you use multiple env files like .env.dev, .env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# OS generated files
+*.swp
+
+# Build outputs
+dist/
+build/
+
+# Database
+*.sqlite
+*.db
+*.sql
